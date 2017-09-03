@@ -11,6 +11,4 @@ Setup and Running Instructions:
 Notes:
 1. Test cases are present in SimpleHTTPEndpoint/tests in the test_endpoint.py file.
 2. The application handles GET and POST requests and presents a message saying 'not handled' for other HTTP methods.
-3. For a GET request, if: 'application.json' is present in the ACCEPT header, JSON data is sent back
-                      else: HTML data is sent.
-
+3. For a GET request, if 'application.json' is present in the ACCEPT header, JSON data is sent back. Else, HTML data is sent.
